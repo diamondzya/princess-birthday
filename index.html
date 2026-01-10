@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Happiest 17th Birthday! 🌷</title>
+
+    <style>
+        body
+        {
+            font-family: 'Georgia', serif;
+        }
+    </style>
+
+</head>
+<body class="min-h-screen bg-gradient-to-b from-rose-100 viapink-100 to-rose-200 flex items-center justify-center p-6">
+    <audio id="bgMusic" loop>
+        <source src="/17th/sources/A1.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="max-w-xl w-full bg-white/80 backdrop-blur rounded-3xl shadow-2xl p-6 text-center">
+        <h1 class="text-3xl font-bold text-rose-600 mb-2">
+            Happiest 17th Birthday! 🌷
+        </h1>
+
+        <p class="text-gray-600 mb-6 italic">
+            A small space made just for you
+        </p>
+
+        <div class="mb-6">
+            <img
+            src=""
+            alt="you"
+            class="w-48 h-48 object-cover rounded-full mx-auto shadow-lg border-4 border-rose-300"
+            >
+        </div>
+
+        <div class="text-gray-700 leading-relaxed space-y-4 px-2">
+            <p>
+                Today, you turn <strong>17</strong> —
+                and somehow, the world feels softer, warmer, and more beautiful because you exist.
+            </p>
+            <p>
+                You are my calm, my smile, my favorite thought at random moments.
+                Loving you feels natural — like breathing, like coming home.
+            </p>
+            <p class="font-semibold text-rose-500">
+                I’m so proud of you. I’m so grateful for you.  
+                And I’ll always choose you.
+            </p>
+        </div>
+        <div class="mt-8">
+            <img
+            src="../17th/sources/us.jpg"
+            alt="us tgt"
+            class="w-full h-64 object-cover rounded-2xl shadow-md"
+            >
+            <p class="text-sm text-gray-500 mt-2 italic">
+                My favorite place is wherever I'm with you. 🤍
+            </p>
+        </div>
+
+        <button onclick="document.getElementById('bgMusic').play()"
+        class="mt-6 px-6 py-3 bg-rose-500 hover:bg-rose-600 text-white rounded-full shadow-lg transition">
+            ▶ Play Our Song
+        </button>
+
+        <p class="mt-6 text-xs text-gray-400">
+            Made with all my love, always and forever.
+        </p>
+    </div>
+
+</body>
+</html>
